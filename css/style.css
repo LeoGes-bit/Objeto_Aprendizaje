@@ -2,6 +2,8 @@
     --gradient:linear-gradient(90deg, #f1c40f, #f39c12);
 }
 
+
+
 *{
     font-family: 'Open Sans', sans-serif;
     margin:0; padding:0;
@@ -22,6 +24,7 @@ html{
     overflow-x: hidden;
 }
 
+
 html::-webkit-scrollbar{
     width:1.5rem;
 }
@@ -38,6 +41,10 @@ section{
     min-height: 100vh;
     padding:1rem 7%;
     padding-top:6rem;
+}
+
+textarea{
+  background-color: rgba(102, 100, 100, 0.151);
 }
 
 .btn{
@@ -269,6 +276,8 @@ header #menu{
 
 .imgF{
     padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .about{
     display: flex;

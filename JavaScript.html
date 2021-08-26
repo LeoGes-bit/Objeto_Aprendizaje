@@ -24,13 +24,11 @@
 
     <div id="menu" class="fas fa-bars"></div>
 
-    <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LOGO</a>
+    <a href="#home" class="logo"><i class="fas fa-user-graduate"></i> - SOFT ACADEMY</a>
 
     <nav class="navbar">
         <ul>
             <li><a class="active" href="index.html">Inicio</a></li>
-
-
             <li><a href="Contenidos.html">Contenidos</a></li>
             <li><a href="HTML.html">HTML</a></li>
             <li><a href="CSS.html">CSS</a></li>
@@ -40,7 +38,7 @@
         </ul>
     </nav>
 
-    <div id="login" class="fas fa-user-circle"></div>
+    <div id="login" class="fas fa-comment-alt"></div>
 
 </header>
 
@@ -51,12 +49,9 @@
 <div class="login-form">
 
     <form action="">
-        <h3>login</h3>
-        <input type="email" placeholder="username" class="box">
-        <input type="password" placeholder="password" class="box">
-        <p>forget password? <a href="#">click here</a></p>
-        <p>don't have an account? <a href="#">register now</a></p>
-        <input type="submit" class="btn" value="login">
+        <h3>¿Qué te parecio el curso ?</h3>
+        <textarea class="box" name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+        <input type="submit" class="btn" value="Enviar">
         <i class="fas fa-times"></i>
     </form>
 
@@ -67,32 +62,58 @@
 
 <div class="container">
     <form>
-      <h1>TEMA 3: JavaScript</h1>
+        <h1>TEMA 3: JavaScript</h1>
+        <h2>Elementos básicos</h2>
+        <p>
+            Escribir un programa por lo tanto es escribir instrucciones para que las ejecute el ordenador, utilizando para ello un cierto lenguaje. Es como escribir en inglés: necesitas conocer el vocabulario y la gramática del idioma. En nuestro caso usamos como lenguaje el JavaScript y necesitas conocer sus reglas y su vocabulario. Como ya sabes se trata de un lenguaje interpretado y los programas escritos con estos lenguajes son conocidos como scripts o guiones.
+            <br>
+            Pese a su nombre no tiene nada que ver con Java, este último es un lenguaje algo más complejo con el que se pueden construir programas de propósito general como podría hacerse con C++ o Visual Basic.
+            <br>
+            La única razón de ser de JavaScript son las páginas web. Con JavaScript no pueden construirse programas independientes, sólo pueden escribirse scripts que funcionarán en el entorno de una página web, interpretado por un explorador.
+        </p>
+        <br>
 
-      <h2>Que es HTML</h2>
+        <h2>Tipos de datos</h2>
+        <p>
+            Para comenzar a utilizar Javascript (y cualquier lenguaje de programación) es necesario conocer algunos conceptos básicos, no podemos empezar a hacer una casa si no sabemos que existen los ladrillos.
+            <br>
+            Un programa es una lista de instrucciones, pero esas instrucciones se deberán ejecutar sobre algo, si damos una instrucción escribir debemos especificar que es lo que hay que escribir. Es evidente pues que en las instrucciones del programa también deben figurar los datos con que trabajar.
+            <br>
+            Por ejemplo el nombre de una persona es "Jairo", esta palabra es un dato. El precio de una manzana en euros es 1, este número es otro dato.
+            <br>
+            Estos datos no suelen usarse tal cual sino que se almacenan en unos elementos con nombre denominados variables. En los ejemplos previos usaría una variable, nombre, para guardar "Jairo" o precio para guardar el 1.
+            <br>
+            Si ahora digo al ordenador que escriba nombre el ordenador escribirá su contenido, o sea, Jairo. Abre una nueva página en blanco en Brackets, guárdala como index.html y escribe lo siguiente (entre etiquetas de script):
+            <br>
+            <img src="images/script.png" alt="">
+        </p>
+        <br>
+
+        <h2>Operadores</h2>
+            <p>
+                Los operadores permiten manipular las variables, realizar operaciones matemáticas, comparaciones lógicas o asignaciones.
+                Existen varios tipos de Operadores.
+                1. Operador de Asignación‌: Este operador nos permite asignar un valor a nuestras variables.
+
+                Operador de Incremento y Decremento:
+                Este operador permite incrementar o decrementar en una unidad el valor de la variable.
+                Para mostrar el resultado de una variable o una sentencia o expresión, podemos usar una función que tiene JavaScript que se llama “console”, en este caso estamos usando la propiedad “log”. Esta función nos mostrará en la consola del navegador el resultado de lo que incluyamos en los paréntesis.
+                Operadores lógicos
+                Nos permite tomar decisiones sobre las instrucciones, incluso nos permite negar una instrucción.
+            </p>
+            <br>
+        <h2>Estructuras de control</h2>
+        <p>
+            Condicionales: Al hacer un programa necesitaremos establecer condiciones o decisiones, donde buscamos que el navegador realice una acción A si se cumple una condición o una acción B si no se cumple. Este es el primer tipo de estructuras de control que encontraremos. Para ello existen varias estructuras de control:
+            <br>
+            <img src="images/condicon sc.png" alt="">
+        </p>
+        <h2>Funciones</h2>
+        <h2>Objetos</h2>
+        <h2>Eventos</h2>
+        <h2>Objetos Predefinidos</h2>
       <br>
       
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad dolore magnam quasi debitis iusto et architecto nemo, omnis, ratione illo ullam vel dicta veniam mollitia minima est repellendus atque optio.
-      Nisi distinctio ratione tenetur, pariatur architecto porro ad quia ullam obcaecati odit commodi sapiente alias adipisci eum voluptatum cum blanditiis. Laborum quam debitis assumenda delectus labore rem commodi provident tempore?
-      Quam labore esse dolores exercitationem! Sed maiores tempore autem veritatis, quam qui dolores accusamus alias rerum voluptatibus. Quos ratione quae soluta quo aperiam, voluptate dicta laboriosam, pariatur quisquam iste nihil.
-      Voluptates perferendis excepturi at, facilis eum libero ex temporibus illo nostrum nisi, nulla dolor dolorum aperiam. Qui cupiditate ipsum velit deleniti quam. Quas at, sapiente aliquid accusamus eum quasi dignissimos?
-      Aspernatur, accusamus commodi est aliquid dolore, vero saepe doloremque fugit iste minima officia debitis mollitia cumque voluptatibus voluptas molestias libero cum rem voluptatem facere suscipit adipisci eaque modi ad? Facilis.
-      Dolorum repellendus impedit aliquam repellat ipsam suscipit aperiam sint veniam! Delectus quibusdam nemo iste facilis laudantium eaque dolorem. Quod numquam cumque deleniti voluptatibus. Architecto accusantium voluptate ratione molestiae minima rerum.
-      Officia reiciendis eaque excepturi aliquam obcaecati tempore tempora, rerum iste eos quia, voluptatem asperiores quisquam earum facilis molestiae dolore architecto. Deserunt repellat laboriosam voluptas expedita. Possimus repellendus illum error enim?
-      Ipsum quam repellendus odio. Quo, repellat ratione ullam distinctio error, dolores nemo assumenda quam exercitationem laboriosam, facilis possimus et deleniti excepturi voluptas voluptate ipsa molestiae ex? Nemo autem maiores quis!
-      Fugiat recusandae ad dolorem doloremque sequi, quam atque numquam, quibusdam esse, iure officia molestiae quae voluptatem id accusamus. Harum unde quo, in sed inventore earum commodi aliquam quam maxime non!
-      Sed ex iusto nemo amet doloribus vel reiciendis cupiditate repudiandae debitis, aliquid inventore aliquam. Accusamus odit quos, nesciunt harum dolorem optio architecto ullam saepe aspernatur mollitia veniam eaque molestias adipisci.</p>
-
-      <br>
-      <h2>Que es HTML</h2>
-      <br>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit reprehenderit ratione veniam animi quam eligendi earum amet omnis odio veritatis necessitatibus iste, officia, iusto numquam commodi itaque asperiores cupiditate quibusdam.
-      Voluptatum aliquam, eos inventore ex libero qui sed deserunt! Quasi modi, in commodi fugiat expedita porro dolores voluptatibus, quae necessitatibus veritatis veniam? Odio sed voluptatibus illum, quo facilis ab sunt.
-      Quo asperiores repudiandae, exercitationem officia blanditiis maxime amet eos incidunt veritatis maiores similique. Alias soluta quaerat esse architecto accusamus quam officiis sint mollitia vero doloribus? Minus, sapiente. Omnis, nisi fugiat?
-      Incidunt facilis, error sed quaerat numquam hic vero amet accusamus harum vel quisquam eligendi velit libero neque iure totam atque illum a cumque modi similique nam perspiciatis. Quod, deserunt ipsum!
-      Temporibus, qui inventore. Hic perferendis, iure sapiente quibusdam illum molestias totam perspiciatis debitis, voluptates dignissimos sit placeat ducimus autem voluptas eos nulla omnis fugiat in quo quasi incidunt ad voluptate!</p>
-      <br>
-
     </form>
     <div class="button-container">
       <a href="/Tips.html"><button class="button" href="Evaluacion.html"><span>Continuar con Tips</span></button>
